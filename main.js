@@ -1,4 +1,9 @@
-/*Tpos de variáveis*/
-var a = $ //scopo global
-const b = 10 // escolo local
-let c = "teste" // sempre o mesmo valor
+var a = 5
+var b = 10
+
+function soma(banana,homensPelados){
+    let sum = banana+-homensPelados
+    return sum
+}
+
+console.log(soma(banana,homensPelados))
