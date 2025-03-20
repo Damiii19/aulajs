@@ -1,11 +1,15 @@
-const array = [2,3,4,5,6]; //criando array
+function Pessoa (nome){
+    this.nome = a;
+    this.idade = b;
+}
 
-array.forEach(item =>{ //para cada item do array
-    if(item % 2 === 0){
-        console.log(`O número ${item} é par`);
-    }
-    else{
-        console.log(`O número ${item} é ímpar`);
-    }
+const x  = new Pessoa('Afonso', 31);
+const y = new Pessoa('Damares', 20) // criando varia x 
 
-});
+console.log(x);
+console.log(y);
+
+/*
+function Person (name){
+this.name = name;
+}*/
