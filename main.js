@@ -1,9 +1,11 @@
-var a = 5
-var b = 10
+const array = [2,3,4,5,6]; //criando array
 
-function soma(banana,homensPelados){
-    let sum = banana+-homensPelados
-    return sum
-}
+array.forEach(item =>{ //para cada item do array
+    if(item % 2 === 0){
+        console.log(`O número ${item} é par`);
+    }
+    else{
+        console.log(`O número ${item} é ímpar`);
+    }
 
-console.log(soma(banana,homensPelados))
+});
