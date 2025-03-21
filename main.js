@@ -1,15 +1,11 @@
-function Pessoa (nome){
-    this.nome = a;
-    this.idade = b;
+function Carro (a,b,c,d,e){
+    this.modelo=a;
+    this.cor=b;
+    this.ano=c;
+    this.valor=d;
+    this.popular=e
 }
+    var carro = new Carro('Ferrari', 'Black', 2024, 650.00, true)
+    
+    console.log(carro)
 
-const x  = new Pessoa('Afonso', 31);
-const y = new Pessoa('Damares', 20) // criando varia x 
-
-console.log(x);
-console.log(y);
-
-/*
-function Person (name){
-this.name = name;
-}*/
