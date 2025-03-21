@@ -1,11 +1,15 @@
-function Carro (a,b,c,d,e){
-    this.modelo=a;
-    this.cor=b;
-    this.ano=c;
-    this.valor=d;
-    this.popular=e
-}
-    var carro = new Carro('Ferrari', 'Black', 2024, 650.00, true)
-    
-    console.log(carro)
+var lista = ["Afonso", "Damares", "Takana", "Priscila"];
 
+console.log(lista);
+
+console.log(lista[3]);
+
+//add elementos na lista
+lista.push("Felipe"); // faz adição de um elemento na ultm. posição
+console.log(lista);
+
+
+lista.pop();
+console.log (lista); //remove o ultimo elemento da lsita
+
+console.log(lista.length) //exibe qtn de posições do array
